@@ -4,5 +4,7 @@
 
 float perimeter_rect(float height, float width);
 
+float perimeter_circle(float radius);
+
 #endif
 
