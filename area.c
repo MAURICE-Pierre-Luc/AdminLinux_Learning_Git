@@ -7,5 +7,5 @@ float area_rect(float height, float width) {
 }
 
 float area_circle(float radius) {
-    return M_PI * radius;
+    return 4 * M_PI * radius;
 }
