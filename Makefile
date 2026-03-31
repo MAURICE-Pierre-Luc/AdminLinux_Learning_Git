@@ -6,6 +6,7 @@ test_perimeter.o: tests/test_perimeter.c perimeter.h
 
 test_perimeter: test_perimeter.o perimeter.o
 	gcc -lm -o test_perimeter test_perimeter.o perimeter.o
+
 area.o: area.c area.h
 	gcc -c area.c
 
